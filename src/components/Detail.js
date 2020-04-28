@@ -45,10 +45,6 @@ export default class Detail extends Component {
     this.fetchMovie({ id: movieid });
   }
 
-  // volver(){
-  //   window.history.back()
-  // }
-
   valorRating(metascore){
     
     const puntuacion = parseInt(metascore)
@@ -74,7 +70,7 @@ export default class Detail extends Component {
       <Fragment>
         {this.state.loading
           ?<div className="columnas-center card">
-          {/* <button className="button is-primary" onClick={this.volver}>Volver</button> */}
+          
           {imdbID ? (
             <Fragment>
               <div className="columns">
@@ -82,7 +78,7 @@ export default class Detail extends Component {
                   <img className="poster" src={Poster} alt={Title} />
                 </div>
                 <div className="column is-9">
-                    <h1 className="title is-3 titulo-movie">{Title}</h1>
+                    <h1 className="title is-3 movie">{Title}</h1>
                     <p className="subtitle is-6">
                        {Plot}
                     </p>

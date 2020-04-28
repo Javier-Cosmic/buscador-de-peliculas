@@ -1,8 +1,12 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
-const BotonBack = () => {
-    return <Link to='/' className="button is-primary boton">Go Back</Link>
+export default () => {
+
+    function volver(){
+        window.history.back()
+    }
+
+    return (
+        <button className="button is-primary" onClick={volver}>Go Back</button>
+    )
 }
-
-export default BotonBack;

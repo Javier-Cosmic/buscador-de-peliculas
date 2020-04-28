@@ -8,7 +8,7 @@ import {BrowserRouter} from 'react-router-dom'
 ReactDOM.render(
   <React.StrictMode>
     {/* con este tipo de enrutado se trabaja */}
-    <BrowserRouter>  
+    <BrowserRouter basename="/">  
       <App />
     </BrowserRouter>  
   </React.StrictMode>,

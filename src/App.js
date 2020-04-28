@@ -46,7 +46,7 @@ class App extends React.Component {
           />
 
           {/* la ruta :id corresponde al nombre cuando llamamos a la props match.params */}
-          <Route exact path={"/detalle/:movieid"} component={Detail} />
+          <Route exact path={"/movie/:movieid"} component={Detail} />
 
           <Route
             render={() => (
