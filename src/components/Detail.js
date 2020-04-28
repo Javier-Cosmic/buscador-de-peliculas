@@ -73,36 +73,38 @@ export default class Detail extends Component {
     return (
       <Fragment>
         {this.state.loading
-          ? <div className="columnas-center card">
+          ?<div className="columnas-center card">
           {/* <button className="button is-primary" onClick={this.volver}>Volver</button> */}
           {imdbID ? (
             <Fragment>
-              <div className="columns ">
-                <div className="column is-one-third">
-                  <img align="center" className="poster" src={Poster} alt={Title} />
+              <div className="columns">
+                <div className="column is-3">
+                  <img className="poster" src={Poster} alt={Title} />
                 </div>
-                <div className="column is-three-thirds">
-                    <h1 className="title is-2 titulo-movie">{Title}</h1>
-                    <p className="subtitle is-5">
+                <div className="column is-9">
+                    <h1 className="title is-3 titulo-movie">{Title}</h1>
+                    <p className="subtitle is-6">
                        {Plot}
                     </p>
-                    <h3 className="subtitle is-5">
-                      <strong>Actores:</strong> {Actors}
+                    <h3 className="subtitle is-6">
+                      <strong>Actors:</strong> {Actors}
                     </h3>
-                    <h3 className="subtitle is-5">
-                      <strong>Duración:</strong> {Runtime}
+                    <h3 className="subtitle is-6 runtime">
+                      <strong>Runtime:</strong> {Runtime}
                     </h3>
-                    <h3 className="subtitle is-5">
-                      <strong>Premios:</strong> {Awards}
+                    <h3 className="subtitle is-6">
+                      <strong>Awards:</strong> {Awards}
                     </h3>
                     {Metascore === 'N/A'
-                      ? <h3 className="subtitle is-5"><strong>Puntuación: </strong>N/A</h3>
+                      ? <h3 className="subtitle is-6"><strong>Metascore: </strong>N/A</h3>
                       : <Fragment>
-                          <h3 className="subtitle is-5 puntaje"><strong>Puntuación</strong></h3>
+                          <span className="subtitle is-6"><strong>Metascore</strong></span>
+                          <div className="metascore">
                           <Rating name="read-only" value={this.valorRating(Metascore)} readOnly />
+                          </div>
                         </Fragment> 
                     }
-                    <h3 className='subtitle is-6 date-released'>Fecha de lanzamiento: {Released}</h3> 
+                    <h3 className='subtitle is-6 date-released'><strong>Released:</strong> {Released}</h3> 
                 </div>
               </div>
               <div className="is-one-third">
@@ -110,7 +112,7 @@ export default class Detail extends Component {
               </div>
             </Fragment>
           ) : (
-            "El ID de la pelicula no existe."
+            "The movie ID does not exist."
           )}
         </div>
         : <Loading />

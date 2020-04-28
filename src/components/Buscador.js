@@ -64,17 +64,17 @@ export default class Buscador extends Component {
               <input
                 className="input"
                 type="text"
-                placeholder="Buscar una pelicula"
+                placeholder="Search a movie"
                 onChange={this.handleChange}
               />
             </div>
             <div className="control">
-              <button className="button is-primary">Buscar</button>
+              <button className="button is-primary">Search</button>
             </div>
           </div>
           {!inputPelicula ? (
             <p className="mensaje-buscador">
-              Debes escribir el nombre de una pelicula
+              You must write the name of a movie
             </p>
           ) : null}
         </form>

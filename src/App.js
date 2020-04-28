@@ -39,7 +39,7 @@ class App extends React.Component {
                         <MovieList movies={results} />
                       </div>
                     ) : (
-                      <p className="resultados">Sin resultados</p>
+                      <p className="resultados">Without results</p>
                     )}
                   </div>
             )}
@@ -51,7 +51,7 @@ class App extends React.Component {
           <Route
             render={() => (
               <div className="error">
-                <p className="resultados">¡Oops, ruta no encontrada!</p>
+                <p className="resultados">¡Oops, the route does not exist!</p>
                 <BotonBack />
               </div>
             )}
