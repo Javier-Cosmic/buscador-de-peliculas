@@ -27,7 +27,7 @@ export default class Buscador extends Component {
       - Luego se hace otra promesa posteriormente para devolvernos los resultados json y guardalos como resultados
     */
    
-    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${inputPelicula}`)
+    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${inputPelicula}`)
       .then((res) => res.json())
       .then((results) => {
         const { Search } = results;
