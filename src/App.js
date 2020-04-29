@@ -31,7 +31,7 @@ class App extends React.Component {
         <Switch>
           <Route
             exact
-            path="/"
+            path={`${process.env.PUBLIC_URL}/`}
             render={() => (
                   <div>
                     {results ? (
@@ -46,7 +46,7 @@ class App extends React.Component {
           />
 
           {/* la ruta :id corresponde al nombre cuando llamamos a la props match.params */}
-          <Route exact path={"/movie/:movieid"} component={Detail} />
+          <Route exact path={`${process.env.PUBLIC_URL}/movie/:movieid`} component={Detail} />
 
           <Route
             render={() => (

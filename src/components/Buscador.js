@@ -54,7 +54,7 @@ export default class Buscador extends Component {
     return (
       <React.Fragment>
         {redirect
-          ? <Redirect to="/" />
+          ? <Redirect to={`${process.env.PUBLIC_URL}/`} />
           : null
         }
 

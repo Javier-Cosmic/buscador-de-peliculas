@@ -14,7 +14,7 @@ export default class Movie extends Component {
     const {id, titulo, año, poster } = this.props;
 
     return (
-      <Link to={`/movie/${id}`} >
+      <Link to={`${process.env.PUBLIC_URL}/movie/${id}`} >
       <div className="card">
         <div className="card-image">
           <figure className="image">
