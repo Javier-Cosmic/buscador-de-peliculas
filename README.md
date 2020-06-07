@@ -6,3 +6,4 @@
 ### Layout
     La UI es implementada basicamente con bulma y Material UI
     
+https://javier-cosmic.github.io/buscador-de-peliculas/
