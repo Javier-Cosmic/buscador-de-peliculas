@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/buscador-de-peliculas/static/css/main.ab057522.chunk.css",
-    "main.js": "/buscador-de-peliculas/static/js/main.1887f95c.chunk.js",
-    "main.js.map": "/buscador-de-peliculas/static/js/main.1887f95c.chunk.js.map",
+    "main.css": "/buscador-de-peliculas/static/css/main.55eac6f2.chunk.css",
+    "main.js": "/buscador-de-peliculas/static/js/main.99afe897.chunk.js",
+    "main.js.map": "/buscador-de-peliculas/static/js/main.99afe897.chunk.js.map",
     "runtime-main.js": "/buscador-de-peliculas/static/js/runtime-main.e1356fba.js",
     "runtime-main.js.map": "/buscador-de-peliculas/static/js/runtime-main.e1356fba.js.map",
     "static/css/2.cd1899df.chunk.css": "/buscador-de-peliculas/static/css/2.cd1899df.chunk.css",
-    "static/js/2.fb49768a.chunk.js": "/buscador-de-peliculas/static/js/2.fb49768a.chunk.js",
-    "static/js/2.fb49768a.chunk.js.map": "/buscador-de-peliculas/static/js/2.fb49768a.chunk.js.map",
+    "static/js/2.37b0955b.chunk.js": "/buscador-de-peliculas/static/js/2.37b0955b.chunk.js",
+    "static/js/2.37b0955b.chunk.js.map": "/buscador-de-peliculas/static/js/2.37b0955b.chunk.js.map",
     "index.html": "/buscador-de-peliculas/index.html",
-    "precache-manifest.a9a593835d138b4deb865707573f86a4.js": "/buscador-de-peliculas/precache-manifest.a9a593835d138b4deb865707573f86a4.js",
+    "precache-manifest.b9c3939f1fb2ed305459e1632003e384.js": "/buscador-de-peliculas/precache-manifest.b9c3939f1fb2ed305459e1632003e384.js",
     "service-worker.js": "/buscador-de-peliculas/service-worker.js",
     "static/css/2.cd1899df.chunk.css.map": "/buscador-de-peliculas/static/css/2.cd1899df.chunk.css.map",
-    "static/css/main.ab057522.chunk.css.map": "/buscador-de-peliculas/static/css/main.ab057522.chunk.css.map",
-    "static/js/2.fb49768a.chunk.js.LICENSE.txt": "/buscador-de-peliculas/static/js/2.fb49768a.chunk.js.LICENSE.txt",
-    "static/media/logo.png": "/buscador-de-peliculas/static/media/logo.91420273.png"
+    "static/css/main.55eac6f2.chunk.css.map": "/buscador-de-peliculas/static/css/main.55eac6f2.chunk.css.map",
+    "static/js/2.37b0955b.chunk.js.LICENSE.txt": "/buscador-de-peliculas/static/js/2.37b0955b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e1356fba.js",
     "static/css/2.cd1899df.chunk.css",
-    "static/js/2.fb49768a.chunk.js",
-    "static/css/main.ab057522.chunk.css",
-    "static/js/main.1887f95c.chunk.js"
+    "static/js/2.37b0955b.chunk.js",
+    "static/css/main.55eac6f2.chunk.css",
+    "static/js/main.99afe897.chunk.js"
   ]
 }
