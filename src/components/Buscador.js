@@ -46,10 +46,12 @@ export default class Buscador extends Component {
         })
         // console.log('2', this.state.redirect)
       });
+
+      e.target.reset();
   };
 
   render() {
-    const { inputPelicula, redirect } = this.state;
+    const { redirect } = this.state;
 
     return (
       <React.Fragment>
@@ -62,21 +64,16 @@ export default class Buscador extends Component {
           <div className="field has-addons">
             <div className="control">
               <input
-                className="input"
+                className="input is-small"
                 type="text"
                 placeholder="Search a movie"
                 onChange={this.handleChange}
               />
             </div>
             <div className="control">
-              <button className="button is-primary">Search</button>
+              <button className="button is-primary is-small">Search</button>
             </div>
           </div>
-          {!inputPelicula ? (
-            <p className="mensaje-buscador">
-              You must write the name of a movie
-            </p>
-          ) : null}
         </form>
       </React.Fragment>
     );
