@@ -64,14 +64,14 @@ export default class Buscador extends Component {
           <div className="field has-addons">
             <div className="control">
               <input
-                className="input is-small"
+                className="input"
                 type="text"
                 placeholder="Search a movie"
                 onChange={this.handleChange}
               />
             </div>
             <div className="control">
-              <button className="button is-primary is-small">Search</button>
+              <button className="button is-primary">Search</button>
             </div>
           </div>
         </form>
