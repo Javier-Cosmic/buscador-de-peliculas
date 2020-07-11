@@ -75,7 +75,7 @@ export default class Detail extends Component {
             <Fragment>
               <div className="columns">
                 <div className="column is-3">
-                  <img loading='lazy' className="poster" src={Poster} alt={Title} />
+                  <img className="poster" src={Poster} alt={Title} />
                 </div>
                 <div className="column is-9">
                     <h1 className="title is-3 movie">{Title}</h1>

@@ -31,22 +31,20 @@ export default class Buscador extends Component {
       .then((res) => res.json())
       .then((results) => {
         const { Search } = results;
-        //{, totalResult }
-
+    
         // le pasamos Search como props
         this.props.onResultados(Search);
 
         this.setState({
           redirect: true
         })
-        // console.log('1-',this.state.redirect)
 
         this.setState({
           redirect: false
         })
-        // console.log('2', this.state.redirect)
-      });
 
+      });
+      
       e.target.reset();
   };
 
